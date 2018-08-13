@@ -8,8 +8,9 @@ def tamanyo_aproximado(tamanyo, un_kilobyte_es_1024_bytes=True):
     Convierte un tamaño de fichero en formato legible para personas
 
     Argumentos/parametros:
-    tamanyo --- tamaño de fichero en bytes
-    un_kilobyte_es_1024_bytes --- si True (por defecto),
+
+    * tamanyo => tamaño de fichero en bytes
+    * un_kilobyte_es_1024_bytes => si True (por defecto),
                                   usa multiplos de 1024
                                   si False, esa multiplos de 1000
     retorna : string
